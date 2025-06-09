@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --font-family: 'Outfit', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #8aebf8 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #aaeffc 99.55%);
+  
+  --color-bg: #01003D;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+
+body {
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
