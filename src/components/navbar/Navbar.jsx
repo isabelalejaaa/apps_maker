@@ -18,6 +18,7 @@ const Navbar = () => {
           <p><a href="#possibility">Proyectos</a></p>
           <p><a href="#features">Servicios</a></p>
           <p><a href="#blog">Tendencias</a></p>
+          <p><a href="http://127.0.0.1:8000/admin/" target="_blank" rel="noopener noreferrer">Administración</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-menu">
@@ -32,6 +33,7 @@ const Navbar = () => {
             <p><a href="#possibility">Open AI</a></p>
             <p><a href="#features">Case Studies</a></p>
             <p><a href="#blog">Library</a></p>
+            <p><a href="http://127.0.0.1:8000/admin/" target="_blank" rel="noopener noreferrer">Apps Maker</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign inn</p>
