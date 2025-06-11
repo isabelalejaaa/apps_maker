@@ -10,7 +10,9 @@ const Possibility = () => (
     <div className="gpt3__possibility-content">
       <h4>Nuestros proyectos</h4>
       <h1 className="gradient__text">Explora nuestros proyectos <br /> y empieza esta aventura</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </p>
+      <p>Cada trabajo en nuestro portafolio es la prueba de lo que podemos lograr para ti. Innovación, calidad y resultados tangibles: así es como transformamos ideas en soluciones. No eliges, no programas, solo exploras y te convences.
+
+¿Listo para llevar tu proyecto al siguiente nivel? Mira lo que hemos creado para otros y déjanos hacerlo por ti. La excelencia no es casualidad, es nuestro estándar. ¡Explora nuestros proyectos y hablemos pronto!"</p>
       <h4>Ver proyectos</h4>
     </div>
   </div>

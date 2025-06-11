@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import logotipo from '../../assets/logotipo.svg'; // Asegúrate de que esta ruta sea correcta
+import logotipo from '../../assets/logotipo.svg'; 
 import './cta.css';
 
 const CTA = () => {

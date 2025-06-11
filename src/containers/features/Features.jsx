@@ -5,19 +5,19 @@ import './features.css';
 const featuresData = [
   {
     title: 'Tu tienda online al siguiente nivel',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    text: 'Gracias a nuestra tecnología avanzada y diseño intuitivo, tu tienda online se transforma en una plataforma moderna, eficiente y competitiva en el mercado digital actual.',
   },
   {
     title: 'El diseño que tu negocio merece',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    text: 'Con interfaces personalizadas y visualmente atractivas, creamos diseños únicos que reflejan la identidad de tu marca y mejoran la experiencia del cliente.',
   },
   {
     title: 'Seguridad  en cada línea de código',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    text: 'Protegemos tu negocio y los datos de tus clientes con sistemas de seguridad avanzados, garantizando confianza, cumplimiento legal y protección ante amenazas digitales.',
   },
   {
     title: 'Mayor volumen de clientes',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    text: 'Nuestras soluciones digitales abren tu negocio a nuevos mercados y canales de venta, aumentando tu visibilidad y atrayendo a más clientes de forma constante y sostenible.',
   },
 ];
 
