@@ -4,13 +4,16 @@ import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Clave secreta desde variables de entorno
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-a&j84y#*ut4*4hm@e0=x#euj-abdhp(!z0fzfsu=b&z+arczry')
 
+# Debug controlado por variable de entorno
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['backend-tu-nombre.onrender.com']  # Reemplaza con tu URL real de Render
+# Dominio de Render (actualízalo)
+ALLOWED_HOSTS = ['backend-tu-nombre.onrender.com']
 
-# Application definition
+# Aplicaciones instaladas
 INSTALLED_APPS = [
     'corsheaders',
     'django.contrib.admin',
@@ -23,9 +26,11 @@ INSTALLED_APPS = [
     'contactanos',
 ]
 
+# Middleware
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # Para servir archivos estáticos
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -53,7 +58,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 
-# Base de datos: usa PostgreSQL en producción
+# Base de datos desde Render (PostgreSQL)
 DATABASES = {
     'default': dj_database_url.config(default=os.environ.get('DATABASE_URL'))
 }
@@ -75,9 +80,13 @@ USE_TZ = True
 # Archivos estáticos
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+# WhiteNoise para archivos estáticos
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Clave primaria por defecto
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# CORS para React
+# CORS para frontend en React
 CORS_ALLOW_ALL_ORIGINS = True
