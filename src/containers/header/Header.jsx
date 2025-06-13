@@ -62,7 +62,7 @@ const Header = () => {
         <div className="gpt3__header-content__input">
           <input
             type="email"
-            placeholder="Your Email Address"
+            placeholder="Tu correo electrónico"
             value={correoTemporal}
             onChange={(e) => {
               setCorreoTemporal(e.target.value);

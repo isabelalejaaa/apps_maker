@@ -13,7 +13,7 @@ const Possibility = () => (
       <p>Cada trabajo en nuestro portafolio es la prueba de lo que podemos lograr para ti. Innovación, calidad y resultados tangibles: así es como transformamos ideas en soluciones. No eliges, no programas, solo exploras y te convences.
 
 ¿Listo para llevar tu proyecto al siguiente nivel? Mira lo que hemos creado para otros y déjanos hacerlo por ti. La excelencia no es casualidad, es nuestro estándar. ¡Explora nuestros proyectos y hablemos pronto!"</p>
-      <h4>Ver proyectos</h4>
+      <a href="https://www.figma.com/proto/mYvlw6V2IJryOdj8wQTreZ/Proyecto-Frameworks-Ingles?node-id=154-99&t=ag5GjKemSACGFWK1-0&scaling=scale-down&content-scaling=fixed&page-id=62%3A234&starting-point-node-id=154%3A99&show-proto-sidebar=1" className="ver-proyectos-link">Ver proyectos</a>
     </div>
   </div>
 );

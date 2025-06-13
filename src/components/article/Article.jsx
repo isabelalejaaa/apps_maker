@@ -11,7 +11,13 @@ const Article = ({ imgUrl, date, text }) => (
         <p>{date}</p>
         <h3>{text}</h3>
       </div>
-      <p>Read Full Article</p>
+      <a
+  href="https://www.larepublica.co/internet-economy/chatgpt-desafia-a-los-gigantes-del-internet-4146797"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Leer toda la noticia
+</a>
     </div>
   </div>
 );
